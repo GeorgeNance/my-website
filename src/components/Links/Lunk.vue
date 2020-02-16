@@ -37,7 +37,7 @@
 }
 
 .link strong {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: 900;
   line-height: 0.9;
   margin-left: -0.05em;

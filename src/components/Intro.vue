@@ -1,6 +1,6 @@
 <template>
     <div class="intro">
-            <span class="chirp">hola, hey, hi</span>
+            <span class="chirp">oh hai</span>
             <h1>I'm <strong title="Probably not related to that person you know">George Nance</strong>
                 － a designer, developer, and a bucket of problems</h1>
             <p>I'm helping make the web awesome at
