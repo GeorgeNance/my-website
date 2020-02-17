@@ -8,6 +8,8 @@
         </p>
 
         <span> © {{new Date().getFullYear()}} me </span>
+        <br>
+        <Linky  href="https://github.com/GeorgeNance/my-website">source</Linky>
     </footer>
 </template>
 
