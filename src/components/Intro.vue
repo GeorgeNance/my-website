@@ -1,22 +1,23 @@
 <template>
-    <div class="intro">
-            <span class="chirp">oh hai</span>
-            <h1>I'm <strong title="Probably not related to that person you know">George Nance</strong>
-                － a designer, developer, and a bucket of problems</h1>
-            <p>I'm helping make the web awesome at
-                <em>Blueworld</em> and in my freetime I'm doing a lot :
-            </p>
-    </div>
+  <div class="intro">
+    <span class="chirp">oh hai</span>
+    <h1>
+      I'm
+      <strong title="Probably not related to that person you know">George Nance</strong>
+      － a web developer, designer, and a bucket of problems
+    </h1>
+    <p>
+      I'm helping make the web awesome at
+      <em>Blueworld</em> and in my freetime I'm doing a lot :
+    </p>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {};
 </script>
 
 <style lang="scss" scoped>
-
 .intro {
   font-size: 2em;
   margin: 5vmin 0;
