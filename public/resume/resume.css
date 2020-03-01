@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+.resume {
+  display: grid;
+  font-family: "Source Sans Pro";
+  width: 210mm;
+  height: 297mm;
+
+  /* hardcoded purely for codepen example */
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
+  grid-template-areas:
+    "name name"
+    "photo skills"
+    "about work"
+    "community education";
+}
+
+.grid-area {
+  padding: 1em 1em 1em 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  grid-area: name;
+}
+.name h1 {
+  text-align: center;
+  font-size: 48px;
+}
+.photo {
+  grid-area: photo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo img {
+  border: 1px solid black;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.about {
+  grid-area: about;
+}
+.education {
+  grid-area: education;
+}
+.community {
+  grid-area: community;
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.work {
+  grid-area: work;
+}
+
+.skills {
+  grid-area: skills;
+}
+.wrapper {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-position {
+  text-align: center;
+  background: rgb(255, 212, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 212, 0, 1) 0%,
+    rgba(255, 145, 0, 1) 100%
+  );
+  color: white;
+  font-weight: bolder;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+}
+hr {
+  border: none;
+  height: 5px;
+  width: 100%;
+  background: rgb(255, 212, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 212, 0, 1) 0%,
+    rgba(255, 145, 0, 1) 100%
+  );
+}
+
+.about span {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.about span img {
+  margin-right: 5px;
+  fill: rgba(255, 145, 0, 1);
+}
+
+.skills div {
+  display: flex;
+  justify-content: start;
+}
+
+.company-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.company-name {
+  font-size: 24px;
+}
+.date {
+  display: flex;
+  align-items: center;
+}
